@@ -2,22 +2,22 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: '', // e.g: 'Nicole Saunders | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: '', // e.g: Welcome to my portfolio
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello My Name Is',
+  name: 'Nicole',
+  subtitle: 'I am a Developer',
+  cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profilepic.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
