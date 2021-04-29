@@ -28,27 +28,27 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'imagineliferedesigned.jpg',
+    title: 'Imagine Life Redesigned',
+    info: 'Info Here',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.imagineliferedesigned.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'befreelancefree.jpg',
+    title: 'Be Freelance Free',
+    info: 'Info here',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.befreelancefree.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'sunandsandcastles.jpg',
+    title: 'Sun and Sandcastles',
+    info: 'Info here',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -68,7 +68,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'nicostar26@yahoo.com',
 };
 
 // FOOTER DATA
@@ -77,22 +77,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/development_ns',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/nicostar26',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://linkedin.com/in/nicole-saunders',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/nicostar26',
     },
   ],
 };
