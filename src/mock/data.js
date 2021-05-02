@@ -55,12 +55,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'arcadiadigitalmedia.jpg',
+    title: 'Arcadia Digital Media',
+    info: 'Info here',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://arcadiadigitalmedia.com',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -99,5 +99,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
