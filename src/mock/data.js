@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/1x_91y2Zf3DgvrctarY-MsDrUH-EzPjgvGN4RsjjK47Y/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -60,6 +60,15 @@ export const projectsData = [
     info: 'Info here',
     info2: '',
     url: 'https://arcadiadigitalmedia.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'justbewholelifecoaching.jpg',
+    title: 'Just Be Whole Life Coaching',
+    info: 'Info here',
+    info2: '',
+    url: 'https://justbewholelifecoaching.com',
     repo: '', // if no repo, the button will not show up
   },
 ];
