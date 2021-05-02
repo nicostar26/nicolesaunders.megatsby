@@ -50,8 +50,8 @@ export const projectsData = [
     title: 'Sun and Sandcastles',
     info: 'Info here',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://sunandsandcastles.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
