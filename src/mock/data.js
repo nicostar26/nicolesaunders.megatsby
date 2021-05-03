@@ -21,6 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
+  paragraphFour: '',
   resume: 'https://docs.google.com/document/d/1x_91y2Zf3DgvrctarY-MsDrUH-EzPjgvGN4RsjjK47Y/edit?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -30,8 +31,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'imagineliferedesigned.jpg',
     title: 'Imagine Life Redesigned',
-    info: 'Info Here',
-    info2: '',
+    info: 'Imagine Life Redesigned is a super fun project I have been working on since 2019. It is the website for my family YouTube channel',
+    info2: 'Built with: WordPress',
     url: 'https://www.imagineliferedesigned.com',
     repo: '', // if no repo, the button will not show up
   },
@@ -39,8 +40,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'befreelancefree.jpg',
     title: 'Be Freelance Free',
-    info: 'Info here',
-    info2: '',
+    info: 'Be Freelance Free is a blog that was started to help guide other people who are interested in or new to freelancing.',
+    info2: 'Built with: WordPress',
     url: 'https://www.befreelancefree.com',
     repo: '', // if no repo, the button will not show up
   },
@@ -48,8 +49,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'sunandsandcastles.jpg',
     title: 'Sun and Sandcastles',
-    info: 'Info here',
-    info2: '',
+    info: 'There is nothing like the beach! Sun and Sandcastles was created to provide quality beachwear and home decor for the beach enthusiast or the vacationing family.',
+    info2: 'Built with: WordPress',
     url: 'https://sunandsandcastles.com',
     repo: '', // if no repo, the button will not show up
   },
@@ -57,8 +58,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'arcadiadigitalmedia.jpg',
     title: 'Arcadia Digital Media',
-    info: 'Info here',
-    info2: '',
+    info: 'Arcadia Digital Media is another one of my portfolio websites. It is designed with small business clients in mind.',
+    info2: 'Built with: WordPress',
     url: 'https://arcadiadigitalmedia.com',
     repo: '', // if no repo, the button will not show up
   },
@@ -66,8 +67,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'justbewholelifecoaching.jpg',
     title: 'Just Be Whole Life Coaching',
-    info: 'Info here',
-    info2: '',
+    info: 'Coach Alea Carter',
+    info2: 'Built with: WordPress',
     url: 'https://justbewholelifecoaching.com',
     repo: '', // if no repo, the button will not show up
   },

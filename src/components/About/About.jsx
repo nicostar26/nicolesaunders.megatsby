@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,14 +39,17 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'My name is Nicole. I like creating things for the web. I live in Niceville, Florida but love working with people all over the world. I am fascinated by technology and love contributing to making the world a better, safer, and more convenient place for all of us.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I started working in Web Development before I even knew what it was called. Back when LiveJournal was a thing, I thought it was amazing how people could use HTML and CSS to customize their LiveJournal profiles to something unique and out of the box. That started my journey.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Since then, I have learned HTML, CSS, and JavaScript. I wish I would have saved some of my earlier works as I didn/t take Web Development seriously until around 2017. Along the way, I have picked up several different technologies including PHP and some JavaScript frameworks like React and Gatsby (what this portfolio is built with).'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphFour || 'Take a look around! If you like what you see, I would love to hear from you!'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
