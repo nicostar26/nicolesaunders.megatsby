@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'nicolesaundersme.jpg',
+    title: 'Nicole Saunders',
+    info: 'Web Developer Portfolio',
+    info2: 'Built with: Gatsby',
+    url: 'https:/nicolesaunders.me',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'imagineliferedesigned.jpg',
     title: 'Imagine Life Redesigned',
     info: 'Imagine Life Redesigned is a super fun project I have been working on since 2019. It is the website for my family YouTube channel',
